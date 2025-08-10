@@ -1,0 +1,205 @@
+# Page snapshot
+
+```yaml
+- dialog "cookieconsent":
+  - text: "We use cookies to optimize our website and our service:"
+  - link "Cookie Policy":
+    - /url: https://academybugs.com/cookie-policy-eu/
+  - button "Functional only"
+  - button "Accept cookies"
+- link "Skip to content":
+  - /url: "#sq-content"
+- banner:
+  - heading "AcademyBugs.com" [level=3]:
+    - link "AcademyBugs.com":
+      - /url: https://academybugs.com/
+  - navigation:
+    - list:
+      - listitem:
+        - link "Examples of Bugs":
+          - /url: https://academybugs.com/
+      - listitem:
+        - link "Types of Bugs":
+          - /url: https://academybugs.com/types/
+      - listitem:
+        - link "Find Bugs":
+          - /url: https://academybugs.com/find-bugs/
+      - listitem:
+        - link "Report Bugs":
+          - /url: https://academybugs.com/report-bugs/
+      - listitem:
+        - link "":
+          - /url: "#"
+      - listitem:
+        - link " ( 0 Items )":
+          - /url: https://academybugs.com/my-cart/
+- main:
+  - article:
+    - heading "Home / Shop / Fashion Type" [level=4]:
+      - link "Home":
+        - /url: https://academybugs.com
+      - text: /
+      - link "Shop":
+        - /url: https://academybugs.com/store/
+      - text: /
+      - link "Fashion Type":
+        - /url: https://academybugs.com/store/fashion-type/
+    - img "Professional Suit"
+    - img "Professional Suit"
+    - img "Professional Suit"
+    - img "Professional Suit"
+    - img "Professional Suit"
+    - img "Professional Suit"
+    - heading "Home / Shop / Fashion Type" [level=4]:
+      - link "Home":
+        - /url: https://academybugs.com
+      - text: /
+      - link "Shop":
+        - /url: https://academybugs.com/store/
+      - text: /
+      - link "Fashion Type":
+        - /url: https://academybugs.com/store/fashion-type/
+    - heading "Professional Suit" [level=1]
+    - text: "$279.95$239.95 Model Number: 3981370 Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed. Select ColorOrang"
+    - list:
+      - listitem:
+        - img "Blue"
+      - listitem:
+        - img "Orang"
+      - listitem:
+        - img "Pink"
+      - listitem:
+        - img "Green"
+      - listitem:
+        - img "Yelow"
+    - button "-"
+    - spinbutton: "1"
+    - button "+"
+    - button "ADD TO CART"
+    - text: "Your Price: $239.95 12 Left in Stock Categories:"
+    - link "Specials":
+      - /url: https://academybugs.com/store/specials/
+    - text: "Manufacturer:"
+    - link "L4 Development":
+      - /url: https://academybugs.com/store/l4-development/
+    - link "Facebook":
+      - /url: https://www.facebook.com/sharer/sharer.php?p[url]=https://academybugs.com/store/professional-suit/&p[images][o]=https://academybugs.com/wp-content/uploads/2020/11/womens-11c-green.png&p[title]=Professional+Suit
+      - img "Facebook"
+    - link "X":
+      - /url: https://twitter.com/intent/tweet?original_referer=https://academybugs.com/store/professional-suit/&source=tweetbutton&text=Professional+Suit&url=https://academybugs.com/store/professional-suit/
+      - img "X"
+    - link "Email":
+      - /url: "mailto:?subject=Professional Suit&body=Link for Product: https://academybugs.com/store/professional-suit/"
+      - img "Email"
+    - link "Pinterest":
+      - /url: https://pinterest.com/pin/create/button/?media=https%3A%2F%2Facademybugs.com%2Fwp-content%2Fuploads%2F2020%2F11%2Fwomens-11c-green.png&description=Professional+Suit&url=https%3A%2F%2Facademybugs.com%2Fstore%2Fprofessional-suit%2F
+      - img "Pinterest"
+    - link "LinkedIn":
+      - /url: https://www.linkedin.com/shareArticle?mini=true&url=https://academybugs.com/store/professional-suit/
+      - img "LinkedIn"
+    - link "MySpace":
+      - /url: https://www.myspace.com/index.cfm?fuseaction=postto&t=Professional Suit&u=https%3A%2F%2Facademybugs.com%2Fstore%2Fprofessional-suit%2F
+      - img "MySpace"
+    - list:
+      - listitem: Description
+    - text: Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.
+  - heading "Leave a Reply" [level=3]
+  - paragraph: Your email address will not be published. Required fields are marked *
+  - paragraph:
+    - textbox "Comment"
+  - paragraph:
+    - textbox "Name*"
+  - paragraph:
+    - textbox "Email*"
+  - paragraph:
+    - textbox "Website"
+  - paragraph:
+    - button "Post Comment"
+- heading "Select a Currency" [level=4]
+- combobox:
+  - option "USD" [selected]
+  - option "EUR"
+  - option "GBP"
+  - option "JPY"
+- heading "Product Search" [level=4]
+- combobox
+- button "Search"
+- heading "Hot Item" [level=4]
+- link "Silver Heart Bracelet":
+  - /url: https://academybugs.com/store/heart-bracelet/
+  - img "Silver Heart Bracelet"
+- link "Silver Heart Bracelet":
+  - /url: https://academybugs.com/store/heart-bracelet/
+- text: $275.00
+- heading "Store Menu" [level=4]
+- list:
+  - listitem:
+    - link "All Items":
+      - /url: https://academybugs.com/store/all-items/
+  - listitem:
+    - link "Accessories [+]":
+      - /url: "#"
+  - listitem:
+    - link "Fashion Type [+]":
+      - /url: "#"
+  - listitem:
+    - link "Women's Pants":
+      - /url: https://academybugs.com/store/womens-pants/
+- heading "Filter by Price" [level=4]
+- link "$15.00 - $19.99 (1)":
+  - /url: https://academybugs.com/store/professional-suit/?&perpage=25&pricepoint=7
+- link "$25.00 - $49.99 (2)":
+  - /url: https://academybugs.com/store/professional-suit/?&perpage=25&pricepoint=2
+- link "$50.00 - $99.99 (3)":
+  - /url: https://academybugs.com/store/professional-suit/?&perpage=25&pricepoint=3
+- link "$100.00 - $299.99 (11)":
+  - /url: https://academybugs.com/store/professional-suit/?&perpage=25&pricepoint=4
+- link "Greater Than $299.99 (1)":
+  - /url: https://academybugs.com/store/professional-suit/?&perpage=25&pricepoint=5
+- heading "Shopping Cart" [level=4]
+- link "Shopping Cart (0)":
+  - /url: "#"
+- heading "Your Account" [level=4]
+- text: Email Address*
+- textbox
+- text: Password*
+- textbox
+- button "SIGN IN"
+- contentinfo:
+  - list:
+    - listitem:
+      - link "uTest":
+        - /url: https://www.utest.com/academy
+        - img "uTest"
+    - listitem:
+      - link "Terms & Conditions":
+        - /url: https://www.utest.com/terms-and-conditions
+    - listitem:
+      - link "Privacy Policy":
+        - /url: https://www.utest.com/privacy-policy
+- link "":
+  - /url: "#"
+- text: ×
+- heading "What did you find out?" [level=3]
+- paragraph: What type of issue is it?
+- radio "Functional"
+- text: Functional
+- radio "Visual"
+- text: Visual
+- radio "Content"
+- text: Content
+- radio "Performance"
+- text: Performance
+- radio "Crash"
+- text: Crash
+- paragraph: What should be the expected result?
+- radio "The text should be in English language"
+- text: The text should be in English language
+- radio "Clicking on the color should change the color of the product"
+- text: Clicking on the color should change the color of the product
+- radio "The color variant spellings should be written as 'Orange' and 'Yellow' instead of 'Orang' and 'Yelow' respectively"
+- text: The color variant spellings should be written as 'Orange' and 'Yellow' instead of 'Orang' and 'Yelow' respectively
+- radio "Clicking on the color name should add that color product to cart"
+- text: Clicking on the color name should add that color product to cart
+- button "Submit"
+```

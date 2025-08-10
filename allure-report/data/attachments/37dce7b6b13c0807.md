@@ -1,0 +1,525 @@
+# Page snapshot
+
+```yaml
+- link "Skip to content":
+  - /url: "#sq-content"
+- banner:
+  - heading "AcademyBugs.com" [level=3]:
+    - link "AcademyBugs.com":
+      - /url: https://academybugs.com/
+  - link:
+    - /url: "#"
+  - navigation:
+    - list:
+      - listitem:
+        - link "Examples of Bugs":
+          - /url: https://academybugs.com/
+      - listitem:
+        - link "Types of Bugs":
+          - /url: https://academybugs.com/types/
+      - listitem:
+        - link "Find Bugs":
+          - /url: https://academybugs.com/find-bugs/
+      - listitem:
+        - link "Report Bugs":
+          - /url: https://academybugs.com/report-bugs/
+      - listitem:
+        - link "":
+          - /url: "#"
+      - listitem
+- main:
+  - article:
+    - heading "Find Bugs" [level=3]
+    - heading "Explore a practice test site that has 25 real bugs planted inside." [level=6]
+    - text: View
+    - link "10":
+      - /url: "?perpage=10"
+    - link "25":
+      - /url: "?perpage=25"
+    - link "50":
+      - /url: "?perpage=50"
+    - text: Showing all 18 results
+    - combobox:
+      - option "Default Sorting" [selected]
+      - option "Price Low-High"
+      - option "Price High-Low"
+      - option "Title A-Z"
+      - option "Title Z-A"
+      - option "Newest"
+      - option "Oldest"
+      - option "Best Rating"
+      - option "Most Viewed"
+    - text: Product successfully added to your cart.
+    - link "View Cart":
+      - /url: https://academybugs.com/my-cart/
+    - list:
+      - listitem:
+        - link:
+          - /url: https://academybugs.com/store/dnk-yellow-shoes/
+        - img "DNK Yellow Shoes"
+        - heading "DNK Yellow Shoes" [level=3]:
+          - link "DNK Yellow Shoes":
+            - /url: https://academybugs.com/store/dnk-yellow-shoes/
+        - text: $45.00
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=4481370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - heading "DNK Yellow Shoes" [level=3]:
+          - link "DNK Yellow Shoes":
+            - /url: https://academybugs.com/store/dnk-yellow-shoes/
+        - text: $45.00
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=4481370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - text: Successfully Added to your Shopping Cart Adding to Cart...
+      - listitem:
+        - link:
+          - /url: https://academybugs.com/store/dark-grey-jeans/
+        - img "Dark Grey Jeans"
+        - heading "Dark Grey Jeans" [level=3]:
+          - link "Dark Grey Jeans":
+            - /url: https://academybugs.com/store/dark-grey-jeans/
+        - text: $46.00
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=4281370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - heading "Dark Grey Jeans" [level=3]:
+          - link "Dark Grey Jeans":
+            - /url: https://academybugs.com/store/dark-grey-jeans/
+        - text: $46.00
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=4281370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - text: Successfully Added to your Shopping Cart Adding to Cart...
+      - listitem:
+        - link:
+          - /url: https://academybugs.com/store/flamingo-tshirt/
+        - img "Flamingo Tshirt"
+        - heading "Flamingo Tshirt" [level=3]:
+          - link "Flamingo Tshirt":
+            - /url: https://academybugs.com/store/flamingo-tshirt/
+        - text: $15.14
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=4881370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - heading "Flamingo Tshirt" [level=3]:
+          - link "Flamingo Tshirt":
+            - /url: https://academybugs.com/store/flamingo-tshirt/
+        - text: $15.14
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=4881370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - text: Successfully Added to your Shopping Cart Adding to Cart...
+      - listitem:
+        - link:
+          - /url: https://academybugs.com/store/blue-hoodie/
+        - img "Blue Hoodie"
+        - heading "Blue Hoodie" [level=3]:
+          - link "Blue Hoodie":
+            - /url: https://academybugs.com/store/blue-hoodie/
+        - text: $140.00 $111.00
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=3381370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - heading "Blue Hoodie" [level=3]:
+          - link "Blue Hoodie":
+            - /url: https://academybugs.com/store/blue-hoodie/
+        - text: $140.00 $111.00
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=3381370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - text: Successfully Added to your Shopping Cart Adding to Cart...
+      - listitem:
+        - link:
+          - /url: https://academybugs.com/store/blue-tshirt/
+        - img "Blue Tshirt"
+        - heading "Blue Tshirt" [level=3]:
+          - link "Blue Tshirt":
+            - /url: https://academybugs.com/store/blue-tshirt/
+        - text: $79.92
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=3481370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - heading "Blue Tshirt" [level=3]:
+          - link "Blue Tshirt":
+            - /url: https://academybugs.com/store/blue-tshirt/
+        - text: $79.92
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=3481370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - text: Successfully Added to your Shopping Cart Adding to Cart...
+      - listitem:
+        - link:
+          - /url: https://academybugs.com/store/faint-washed-denim-blue-jeans/
+        - img "Faint Washed Denim Blue Jeans"
+        - heading "Faint Washed Denim Blue Jeans" [level=3]:
+          - link "Faint Washed Denim Blue Jeans":
+            - /url: https://academybugs.com/store/faint-washed-denim-blue-jeans/
+        - text: $117.00
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=4681370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - heading "Faint Washed Denim Blue Jeans" [level=3]:
+          - link "Faint Washed Denim Blue Jeans":
+            - /url: https://academybugs.com/store/faint-washed-denim-blue-jeans/
+        - text: $117.00
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=4681370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - text: Successfully Added to your Shopping Cart Adding to Cart...
+      - listitem:
+        - link:
+          - /url: https://academybugs.com/store/dark-blue-denim-jeans/
+        - img "Dark Blue Denim Jeans"
+        - heading "Dark Blue Denim Jeans" [level=3]:
+          - link "Dark Blue Denim Jeans":
+            - /url: https://academybugs.com/store/dark-blue-denim-jeans/
+        - link "Login for Pricing":
+          - /url: https://academybugs.com/account/
+        - heading "Dark Blue Denim Jeans" [level=3]:
+          - link "Dark Blue Denim Jeans":
+            - /url: https://academybugs.com/store/dark-blue-denim-jeans/
+        - link "Login for Pricing":
+          - /url: https://academybugs.com/account/
+        - text: Successfully Added to your Shopping Cart Adding to Cart...
+      - listitem:
+        - link:
+          - /url: https://academybugs.com/store/boho-bangle-bracelet/
+        - img "Boho Bangle Bracelet"
+        - heading "Boho Bangle Bracelet" [level=3]:
+          - link "Boho Bangle Bracelet":
+            - /url: https://academybugs.com/store/boho-bangle-bracelet/
+        - text: $185.00
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=3681370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - heading "Boho Bangle Bracelet" [level=3]:
+          - link "Boho Bangle Bracelet":
+            - /url: https://academybugs.com/store/boho-bangle-bracelet/
+        - text: $185.00
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=3681370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - text: Successfully Added to your Shopping Cart Adding to Cart...
+      - listitem:
+        - link:
+          - /url: https://academybugs.com/store/heart-bracelet/
+        - img "Silver Heart Bracelet"
+        - heading "Silver Heart Bracelet" [level=3]:
+          - link "Silver Heart Bracelet":
+            - /url: https://academybugs.com/store/heart-bracelet/
+        - text: $275.00
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=3181370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - heading "Silver Heart Bracelet" [level=3]:
+          - link "Silver Heart Bracelet":
+            - /url: https://academybugs.com/store/heart-bracelet/
+        - text: $275.00
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=3181370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - text: Successfully Added to your Shopping Cart Adding to Cart...
+      - listitem:
+        - link:
+          - /url: https://academybugs.com/store/buddha-bracelet/
+        - img "Buddha Bracelet"
+        - heading "Buddha Bracelet" [level=3]:
+          - link "Buddha Bracelet":
+            - /url: https://academybugs.com/store/buddha-bracelet/
+        - text: $107.00
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=4081370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - heading "Buddha Bracelet" [level=3]:
+          - link "Buddha Bracelet":
+            - /url: https://academybugs.com/store/buddha-bracelet/
+        - text: $107.00
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=4081370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - text: Successfully Added to your Shopping Cart Adding to Cart...
+      - listitem:
+        - link:
+          - /url: https://academybugs.com/store/light-brown-purse/
+        - img "Light Brown Purse"
+        - heading "Light Brown Purse" [level=3]:
+          - link "Light Brown Purse":
+            - /url: https://academybugs.com/store/light-brown-purse/
+        - text: $77.04
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=4981370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - heading "Light Brown Purse" [level=3]:
+          - link "Light Brown Purse":
+            - /url: https://academybugs.com/store/light-brown-purse/
+        - text: $77.04
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=4981370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - text: Successfully Added to your Shopping Cart Adding to Cart...
+      - listitem:
+        - link:
+          - /url: https://academybugs.com/store/black-over-the-shoulder-handbag/
+        - img "Black Over-the-shoulder Handbag"
+        - heading "Black Over-the-shoulder Handbag" [level=3]:
+          - link "Black Over-the-shoulder Handbag":
+            - /url: https://academybugs.com/store/black-over-the-shoulder-handbag/
+        - text: $478.00
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=3281370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - heading "Black Over-the-shoulder Handbag" [level=3]:
+          - link "Black Over-the-shoulder Handbag":
+            - /url: https://academybugs.com/store/black-over-the-shoulder-handbag/
+        - text: $478.00
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=3281370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - text: Successfully Added to your Shopping Cart Adding to Cart...
+      - listitem:
+        - link:
+          - /url: https://academybugs.com/store/bright-red-bag/
+        - img "Bright Red Bag"
+        - heading "Bright Red Bag" [level=3]:
+          - link "Bright Red Bag":
+            - /url: https://academybugs.com/store/bright-red-bag/
+        - text: $92.94
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=3881370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - heading "Bright Red Bag" [level=3]:
+          - link "Bright Red Bag":
+            - /url: https://academybugs.com/store/bright-red-bag/
+        - text: $92.94
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=3881370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - text: Successfully Added to your Shopping Cart Adding to Cart...
+      - listitem:
+        - link:
+          - /url: https://academybugs.com/store/white-underground-tshirt/
+        - img "White Underground Tshirt"
+        - heading "White Underground Tshirt" [level=3]:
+          - link "White Underground Tshirt":
+            - /url: https://academybugs.com/store/white-underground-tshirt/
+        - text: $136.12
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=5081370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - heading "White Underground Tshirt" [level=3]:
+          - link "White Underground Tshirt":
+            - /url: https://academybugs.com/store/white-underground-tshirt/
+        - text: $136.12
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=5081370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - text: Successfully Added to your Shopping Cart Adding to Cart...
+      - listitem:
+        - link:
+          - /url: https://academybugs.com/store/bright-gold-purse-with-chain/
+        - img "Bright Gold Purse With Chain"
+        - heading "Bright Gold Purse With Chain" [level=3]:
+          - link "Bright Gold Purse With Chain":
+            - /url: https://academybugs.com/store/bright-gold-purse-with-chain/
+        - text: $124.53
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=3781370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - heading "Bright Gold Purse With Chain" [level=3]:
+          - link "Bright Gold Purse With Chain":
+            - /url: https://academybugs.com/store/bright-gold-purse-with-chain/
+        - text: $124.53
+        - link "ADD TO CART":
+          - /url: https://academybugs.com/my-cart/?ec_action=addtocart&model_number=3781370
+        - link "CHECKOUT NOW":
+          - /url: https://academybugs.com/my-cart/
+        - text: Successfully Added to your Shopping Cart Adding to Cart...
+      - listitem:
+        - link:
+          - /url: https://academybugs.com/store/fall-coat/
+        - img "Fall Coat"
+        - heading "Fall Coat" [level=3]:
+          - link "Fall Coat":
+            - /url: https://academybugs.com/store/fall-coat/
+        - text: $189.95 $169.95
+        - link "Select Options":
+          - /url: https://academybugs.com/store/fall-coat/
+        - heading "Fall Coat" [level=3]:
+          - link "Fall Coat":
+            - /url: https://academybugs.com/store/fall-coat/
+        - text: $189.95 $169.95
+        - link "Select Options":
+          - /url: https://academybugs.com/store/fall-coat/
+        - text: Successfully Added to your Shopping Cart Adding to Cart...
+      - listitem:
+        - link:
+          - /url: https://academybugs.com/store/denim-coat/
+        - img "Denim Coat"
+        - heading "Denim Coat" [level=3]:
+          - link "Denim Coat":
+            - /url: https://academybugs.com/store/denim-coat/
+        - text: $149.95 $109.95
+        - link "Select Options":
+          - /url: https://academybugs.com/store/denim-coat/
+        - heading "Denim Coat" [level=3]:
+          - link "Denim Coat":
+            - /url: https://academybugs.com/store/denim-coat/
+        - text: $149.95 $109.95
+        - link "Select Options":
+          - /url: https://academybugs.com/store/denim-coat/
+        - text: Successfully Added to your Shopping Cart Adding to Cart...
+      - listitem:
+        - link:
+          - /url: https://academybugs.com/store/professional-suit/
+        - img "Professional Suit"
+        - heading "Professional Suit" [level=3]:
+          - link "Professional Suit":
+            - /url: https://academybugs.com/store/professional-suit/
+        - text: $279.95 $239.95
+        - link "Select Options":
+          - /url: https://academybugs.com/store/professional-suit/
+        - heading "Professional Suit" [level=3]:
+          - link "Professional Suit":
+            - /url: https://academybugs.com/store/professional-suit/
+        - text: $279.95 $239.95
+        - link "Select Options":
+          - /url: https://academybugs.com/store/professional-suit/
+        - text: Successfully Added to your Shopping Cart Adding to Cart...
+    - paragraph
+- contentinfo:
+  - list:
+    - listitem:
+      - link "uTest":
+        - /url: https://www.utest.com/academy
+        - img "uTest"
+    - listitem:
+      - link "Terms & Conditions":
+        - /url: https://www.utest.com/terms-and-conditions
+    - listitem:
+      - link "Privacy Policy":
+        - /url: https://www.utest.com/privacy-policy
+- dialog:
+  - heading "Loading Title" [level=5]
+  - paragraph: Loading Subtitle.
+  - separator
+  - heading "Severity" [level=6]
+  - paragraph: Loading Severity
+  - heading "Issue Type" [level=6]
+  - paragraph: Loading Type
+  - heading "Frequency" [level=6]
+  - paragraph: Loading Frequency
+  - heading "Environment" [level=6]
+  - paragraph: Loading Environment
+  - heading "Action Performed" [level=6]
+  - paragraph
+  - paragraph
+  - list
+  - heading "Expected Result" [level=6]
+  - paragraph: Loading Expected Result
+  - heading "Actual Result" [level=6]
+  - paragraph: Loading Actual Result
+  - heading "Attachments" [level=6]
+  - img
+  - img
+  - button "Close": ×
+- dialog:
+  - heading "Loading Title" [level=5]
+  - paragraph: Loading Subtitle.
+  - paragraph:
+    - link:
+      - /url: "#"
+    - link:
+      - /url: "#"
+    - link:
+      - /url: "#"
+    - link:
+      - /url: "#"
+    - link:
+      - /url: "#"
+  - button "Close": ×
+- dialog:
+  - heading "There are more bugs in the profile settings, keep searching" [level=5]
+  - button "Close": ×
+- dialog:
+  - heading "Test Title" [level=5]
+  - paragraph: Test Subtitle.
+  - separator
+  - heading "Severity" [level=6]
+  - paragraph: Test Severity
+  - heading "Issue Type" [level=6]
+  - paragraph: Test Type
+  - heading "Frequency" [level=6]
+  - paragraph: Test Frequency
+  - heading "Environment" [level=6]
+  - paragraph: Test Environment
+  - heading "Action Performed" [level=6]:
+    - text: Action Performed
+    - paragraph
+  - paragraph
+  - list
+  - heading "Expected Result" [level=6]
+  - paragraph: Test Expected Result
+  - heading "Actual Result" [level=6]
+  - paragraph: Test Actual Result
+  - heading "Attachments" [level=6]
+  - img
+  - paragraph
+  - button "Close": ×
+- dialog:
+  - heading "Not a real order" [level=5]
+  - paragraph: Clicking “Submit Order” will not create a real order, this site is for education purposes only.
+  - button "Close": ×
+- dialog:
+  - heading "Test Title" [level=5]
+  - paragraph: Test Subtitle.
+  - separator
+  - heading "Severity" [level=6]
+  - paragraph: Test Severity
+  - heading "Issue Type" [level=6]
+  - paragraph: Test Type
+  - heading "Frequency" [level=6]
+  - paragraph: Test Frequency
+  - heading "Environment" [level=6]
+  - paragraph: Test Environment
+  - paragraph
+  - heading "Action Performed" [level=6]
+  - paragraph
+  - paragraph
+  - list
+  - heading "Expected Result" [level=6]
+  - paragraph: Test Expected Result
+  - heading "Actual Result" [level=6]
+  - paragraph: Test Actual Result
+  - heading "Attachments" [level=6]
+  - img
+  - paragraph
+  - button "Close": ×
+```

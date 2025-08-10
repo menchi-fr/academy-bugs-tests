@@ -1,0 +1,1 @@
+[{"name":"Critical bugs","matchedStatuses":["failed"],"matchedResultStatuses":["failed"]},{"name":"Visual bugs","matchedStatuses":["failed"],"messageRegex":".*visual.*"}]
