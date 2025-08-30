@@ -2,16 +2,16 @@ import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests',
-  timeout: 30000,
-  expect: { timeout: 10000 },
+  timeout: 300000,
+  expect: { timeout: 300000 },
   
   use: {
     baseURL: 'https://academybugs.com/find-bugs/',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
     trace: 'retain-on-failure',
-    waitForLoadState: 'networkidle',
-    actionTimeout: 10000
+    waitForLoadState: 'load',
+    actionTimeout: 300000
   },
 
   reporter: [

@@ -1,12 +1,12 @@
-import { MainFindBugsPage } from './main-find-bugs_page.js';
-import { StoreProfessionalSuitPage } from './store_professional-suit_page.js';
-import { CartPage } from './cart-page.js';
+import {MainFindBugsPage} from './main-find-bugs_page.js';
+import {StoreProfessionalSuitPage} from './store_professional-suit_page.js';
+import {CartPage} from './cart-page.js';
 
 
 export class App {
   constructor(page) {
     this.page = page;
-    
+
     this._mainPage = null;
     this._suitPage = null;
     this._bugModal = null;
@@ -43,7 +43,7 @@ export class App {
     return this._bugModal;
   }
 
-    get cart() {
+  get cart() {
     if (!this._cartPage) {
       this._cartPage = new CartPage(this.page);
     }
@@ -57,24 +57,24 @@ export class App {
 export class BugModal {
   constructor(page) {
     this.page = page;
-    
+
     // Селектор для заголовка модалки
     this.title = page.locator('text="Awesome! You found a bug.", text="You found a bug", [class*="bug-title"]').first();
-    
+
     // Селекторы для классификации
-    this.contentRadio = page.getByRole('radio', { name: 'Content' });
-    this.functionalRadio = page.getByRole('radio', { name: 'Functional' });
-    this.visualRadio = page.getByRole('radio', { name: 'Visual' });
-    this.crashRadio = page.getByRole('radio', { name: 'Crash' });
-    
+    this.contentRadio = page.getByRole('radio', {name: 'Content'});
+    this.functionalRadio = page.getByRole('radio', {name: 'Functional'});
+    this.visualRadio = page.getByRole('radio', {name: 'Visual'});
+    this.crashRadio = page.getByRole('radio', {name: 'Crash'});
+
     // Селекторы для результатов
-    this.colorSpellingResult = page.getByRole('radio', { name: 'The color variant spellings' });
-    this.englishTextResult = page.getByRole('radio', { name: 'The text should be in English' });
-    
+    this.colorSpellingResult = page.getByRole('radio', {name: 'The color variant spellings'});
+    this.englishTextResult = page.getByRole('radio', {name: 'The text should be in English'});
+
     // Кнопки
-    this.submitButton = page.getByRole('button', { name: 'Submit' });
-    this.viewReportButton = page.getByRole('button', { name: 'View Issue Report' });
-    this.closeButton = page.getByRole('button', { name: 'Close' });
+    this.submitButton = page.getByRole('button', {name: 'Submit'});
+    this.viewReportButton = page.getByRole('button', {name: 'View Issue Report'});
+    this.closeButton = page.getByRole('button', {name: 'Close'});
   }
 
   /**
@@ -87,7 +87,7 @@ export class BugModal {
       'Visual': this.visualRadio,
       'Crash': this.crashRadio
     };
-    
+
     await typeMap[bugType]?.click();
   }
 
@@ -96,10 +96,10 @@ export class BugModal {
    */
   async chooseResult(resultText) {
     if (resultText.includes('color variant spellings')) {
-      await this.page.getByRole('radio', { name: 'The color variant spellings should be written as \'Orange\' and \'Yellow\' instead of \'Orang\' and \'Yelow\' respectively' }).check();
+      await this.page.getByRole('radio', {name: 'The color variant spellings should be written as \'Orange\' and \'Yellow\' instead of \'Orang\' and \'Yelow\' respectively'}).check();
     } else {
       // Для других случаев - ищем по частичному тексту
-      await this.page.getByRole('radio').filter({ hasText: resultText }).first().click();
+      await this.page.getByRole('radio').filter({hasText: resultText}).first().click();
     }
   }
 
@@ -123,7 +123,7 @@ export class BugModal {
   async isTitleVisible() {
     try {
       // Ждем появления модалки до 5 секунд (учитывая задержку в 3 сек)
-      await this.page.getByRole('radio', { name: 'Content' }).waitFor({ timeout: 5000 });
+      await this.page.getByRole('radio', {name: 'Content'}).waitFor({timeout: 5000});
       return true;
     } catch {
       return false;
